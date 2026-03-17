@@ -1,0 +1,346 @@
+
+/* Header */
+.custom-header{
+    background:#fff;
+    padding:15px 30px;
+    position:relative;
+    z-index:1000;
+}
+
+.logo img{
+    height:60px;
+}
+
+/* Menu */
+.menu-list{
+    display:flex;
+    list-style:none;
+    gap:40px;
+    margin:0;
+    padding:0;
+}
+
+.menu-list li{
+    position:relative;
+}
+
+.menu-list a{
+    text-decoration:none;
+    color:#002b5c;
+    font-size:22px;
+    font-weight:500;
+}
+
+/* Mega Menu */
+.mega-menu{
+    position:absolute;
+    top:100%;
+    right:0;
+    width:80vw;
+    background:#efefef;
+    padding:30px;
+    display:none;
+    left:1%;
+    transform:translateX(-80%);
+}
+
+.dropdown-item-custom:hover .mega-menu{
+    display:block;
+}
+
+/* Cards */
+.carrier-card{
+    background:white;
+    border-radius:12px;
+    height:170px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.carrier-card img{
+    max-width:100%;
+    max-height:80px;
+}
+.carrier-card-2{
+    background:white;
+    border-radius:12px;
+    height:170px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.carrier-card-2 img{
+    max-width:100%;
+    max-height:80px;
+}
+/* Hero Section */
+.hero-section {
+    min-height: 90vh;
+    background: url('https://payyourmobile.com/assets/images/frontend/banner/hero-section.webp') center center/cover no-repeat;
+    display: flex;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+    max-width: 700px;
+    line-height: 1.1;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-top: 25px;
+    color: black;
+}
+
+.hero-btn {
+    background: #005c3b;
+    color: white;
+    padding: 14px 35px;
+    margin-top: 25px;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.hero-btn:hover {
+    background: #00472e;
+    color: white;
+}
+
+.features-section {
+    background: #F6F7F9;
+}
+
+.small-heading {
+    color: #006b4f;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.main-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 35px;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease; /* smooth transition for hover effect */
+    color: #000; /* default text color */
+}
+
+.feature-card:hover {
+    background: #005f3c;
+    color: #fff; /* text color on hover */
+}
+
+.icon-box {
+    font-size: 34px;
+    color: #005f3c;
+    margin-bottom: 20px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.feature-card:hover .icon-box {
+    color: #fff; /* icon color on hover */
+}
+
+.small-icon {
+    font-size: 14px;
+    position: absolute;
+    bottom: 2px;
+    left: 24px;
+    color: #005f3c;
+    transition: color 0.3s ease;
+}
+
+.feature-card:hover .small-icon {
+    color: #fff; /* small icon color on hover */
+}
+
+.feature-card h4 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+body{
+background:#f5f5f5;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.network-section{
+background:#f2f2f2;
+}
+
+.network-section h2{
+font-size:30px;
+}
+
+.network-logos img{
+max-height:80px;
+margin:20px;
+opacity:0.9;
+transition:0.3s;
+}
+.network-logos-2 img{
+max-height:30px;
+margin:20px;
+opacity:0.9;
+transition:0.3s;
+}
+
+.network-logos img:hover{
+opacity:1;
+transform:scale(1.1);
+}
+
+
+/* footer */
+
+.footer-section{
+background:#ffffff;
+border-top:1px solid #ddd;
+}
+
+.logo-title{
+color:#1c7c54;
+font-weight:600;
+}
+
+.footer-links{
+list-style:none;
+padding:0;
+}
+
+.footer-links li{
+margin-bottom:8px;
+color:#555;
+cursor:pointer;
+}
+
+.footer-links li:hover{
+color:#000;
+}
+
+.payments img{
+height:35px;
+margin-right:10px;
+}
+
+.refund-section{
+
+padding-bottom:80px;
+}
+
+.refund-header{
+background:#FCF6ED;
+padding:60px 0;
+}
+
+.refund-header h2{
+font-weight:600;
+color:#333;
+}
+
+.refund-content{
+padding-top:70px;
+}
+
+.refund-content p{
+font-size:16px;
+color:#555;
+margin-bottom:28px;
+max-width:900px;
+}
+
+.email{
+font-weight:500;
+}
+
+@media screen and (max-width: 768px) {
+    
+/* Header */
+.custom-header{
+    background:#fff;
+    padding:15px 30px;
+    position:relative;
+    z-index:1000;
+}
+
+.logo img{
+    height:60px;
+}
+
+/* Menu */
+.menu-list{
+    display:flex;
+    list-style:none;
+    gap:40px;
+    margin:0;
+    padding:0;
+}
+
+.menu-list li{
+    position:relative;
+}
+
+.menu-list a{
+    text-decoration:none;
+    color:#002b5c;
+    font-size:22px;
+    font-weight:500;
+}
+
+/* Mega Menu */
+.mega-menu{
+    position:absolute;
+    top:100%;
+    right:0;
+    width:80vw;
+    background:#efefef;
+    padding:30px;
+    display:none;
+    left:100%;
+    transform:translateX(-80%);
+}
+
+.dropdown-item-custom:hover .mega-menu{
+    display:block;
+}
+
+/* Cards */
+.carrier-card{
+    background:white;
+    border-radius:12px;
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.carrier-card img{
+    max-width:40%;
+    max-height:80px;
+}
+
+/* Hero Section */
+}

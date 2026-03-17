@@ -1,0 +1,205 @@
+
+.boost-section {
+  background: #f0fff9;
+}
+
+.stat-box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  gap: 20px;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+  font-size: 40px;
+  color: #000;
+}
+
+.stat-box h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.stat-box p {
+  margin: 0;
+  color: #555;
+}
+
+/* Steps */
+.step {
+  position: relative;
+}
+
+.step-number {
+  background: #0b5d3b;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-icon {
+  width: 90px;
+  height: 90px;
+  background: #eee;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.step p {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Section Background Box */
+.refill-box {
+    background-color: #f0fff9;
+    border-radius: 6px;
+}
+
+/* Input Styling */
+.custom-input {
+    border-radius: 25px;
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+}
+
+/* Button Styling */
+.track-btn {
+    background-color: #0c5c3c;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.track-btn:hover {
+    background-color: #094a30;
+}
+
+
+/* Hero Section */
+.hero-section {
+    height: 90vh;
+    background: #f47c20;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Diagonal Shape */
+
+/* Title */
+.hero-section h1 {
+    font-size: 60px;
+}
+
+/* Card */
+.icon-card {
+    width: 250px;
+    height: 180px;
+    background: white   ;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Icon */
+.icon-card i {
+    font-size: 60px;
+    color: #f47c20;
+}
+
+/* Soft shadow behind card */
+.icon-card::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 90%;
+    height: 40px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+
+
+/* Title */
+.title {
+    color: #f47c20;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 18px;
+}
+
+/* Inputs */
+.custom-input {
+    border-radius: 30px;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Add Family Button */
+.add-btn {
+    background-color: #0c5c3c;
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: #094a30;
+}
+
+/* Checkbox text */
+.small-text {
+    font-size: 13px;
+    color: #444;
+}
+
+/* Recharge Button */
+.recharge-btn {
+    background-color: #f47c20;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.recharge-btn:hover {
+    background-color: #d96c1c;
+}
+
+.he p{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
